@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { SidebarComponent } from './sidebar.component';
 
 describe('SidebarComponent', () => {
@@ -12,8 +11,7 @@ describe('SidebarComponent', () => {
     })
     .compileComponents();
   }));
-
-  beforeEach(() => {
+beforeEach(() => {
     fixture = TestBed.createComponent(SidebarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
