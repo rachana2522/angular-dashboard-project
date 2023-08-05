@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import * as Chartist from 'chartist';
-
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -39,7 +38,6 @@ export class DashboardComponent implements OnInit {
               });
           }
       });
-
       seq = 0;
   };
   startAnimationForBarChart(chart){
@@ -80,7 +78,7 @@ export class DashboardComponent implements OnInit {
               tension: 0
           }),
           low: 0,
-          high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+          high: 50, 
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0},
       }
 
@@ -103,7 +101,7 @@ export class DashboardComponent implements OnInit {
               tension: 0
           }),
           low: 0,
-          high: 1000, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+          high: 1000, 
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0}
       }
 
